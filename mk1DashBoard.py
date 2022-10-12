@@ -321,8 +321,8 @@ def update_nonClock(n):
     conn = pyodbc.connect('Driver={SQL Server};'
                       'Server=iaas-eci-br.comvision.solutions;'
                       'Database=M1_BS;'
-                      'UID=nihad;'
-                      'PWD=!3n5GR6yYIGgMt1z')
+                      'UID=REDACTED;'
+                      'PWD=REDACTED')
 
     cursor = conn.cursor()
 
